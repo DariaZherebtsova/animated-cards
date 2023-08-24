@@ -1,0 +1,23 @@
+@mixin screen($width) {
+  @media only screen and (min-width: $width) {
+    @content;
+  }
+}
+
+@mixin mobileReverse {
+  @include screen(600px) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @include screen(1024px) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @include screen(1366px) {
+    @content;
+  }
+}

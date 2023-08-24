@@ -1,0 +1,27 @@
+@import './media';
+
+$color1: #a4d8d8;
+$color2: #5fa08b;
+$color3: #5c898ae5;
+$color4: #b3e3e3dd;
+$color5: #c7f5f559;
+
+$main-bg: $color1;
+$primary: $color2;
+$primary-shadow: $color5;
+$secondary: $color3;
+
+$text-primary: $color4;
+
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: $main-bg;
+  @include tablet {
+    overflow: hidden;
+  }
+}
