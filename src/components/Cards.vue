@@ -131,7 +131,7 @@ const startAnimation = () => {
     &.active {
       background-color: rgb(116, 193, 168);
       transform-origin: 50% 100%;
-      animation: swipe 1200ms cubic-bezier(0.2, 0.8, 1, 2);
+      animation: swipe 800ms cubic-bezier(0.2, 0.8, 1, 2);
     }
   }
 
@@ -165,7 +165,7 @@ const startAnimation = () => {
     transform: rotate(0deg) translateX(15px);
   }
   100% {
-    transform: rotate(16deg) translateX(635px);
+    transform: rotate(16deg) translateX(450px);
   }
 }
 </style>
